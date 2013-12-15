@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionName="1.0" android:versionCode="1" package="com.mat" xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <uses-permission android:name="android.permission.INTERNET"/> 
+    <uses-sdk android:targetSdkVersion="10" android:minSdkVersion="8"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="false">
+        <activity android:name="com.mat.MainActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mat.SearchActivity" android:label="@string/title_activity_search"> </activity> 
+        <activity android:name="com.mat.InfomationActivity" android:label="@string/title_activity_infomation"> </activity> 
+        <activity android:name="com.mat.NewsActivity" android:label="@string/title_activity_news"> </activity> 
+        <activity android:name="com.mat.ChartActivity" android:label="@string/title_activity_chart"> </activity> 
+        <activity android:name="com.mat.WebViewActivity" android:label="@string/title_activity_web_view"> </activity> 
+    </application> 
+</manifest>
